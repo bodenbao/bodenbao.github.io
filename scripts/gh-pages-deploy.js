@@ -14,7 +14,7 @@ const fs = require("fs");
     console.log("Pushing to gh-pages...");
     await execa("git", ["push", "origin", "HEAD:gh-pages", "--force"]);
     console.log("1...");
-    await execa("rm", ["-r", folderName]);
+    await execa("rimraf", [folderName]);
     console.log("2...");
     await execa("git", ["checkout", "-f", "master"]);
     console.log("3...");
