@@ -13,10 +13,15 @@ const fs = require("fs");
     await execa("git", ["--work-tree", folderName, "commit", "-m", "gh-pages"]);
     console.log("Pushing to gh-pages...");
     await execa("git", ["push", "origin", "HEAD:gh-pages", "--force"]);
+    console.log("1...");
     await execa("rm", ["-r", folderName]);
+    console.log("2...");
     await execa("git", ["checkout", "-f", "master"]);
+    console.log("3...");
     await execa("git", ["branch", "-D", "gh-pages"]);
+    console.log("4...");
     console.log("Successfully deployed, check your settings");
+    console.log("5...");
   } catch (e) {
     // eslint-disable-next-line no-console
     console.log(e.message);
