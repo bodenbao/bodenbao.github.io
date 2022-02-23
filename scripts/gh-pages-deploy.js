@@ -16,7 +16,7 @@ const fs = require("fs");
     console.log("1...");
     await execa("rimraf", [folderName]);
     console.log("2...");
-    await execa("git", ["checkout", "-f", "master"]);
+    await execa("git", ["checkout", "-f", "main"]);
     console.log("3...");
     await execa("git", ["branch", "-D", "gh-pages"]);
     console.log("4...");
