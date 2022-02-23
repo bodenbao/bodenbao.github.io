@@ -29,3 +29,4 @@ https://blog.logrocket.com/automatically-build-deploy-vuejs-app-github-pages/
 https://learnvue.co/2020/09/how-to-deploy-your-vue-app-to-github-pages/#step-1-set-publicpath-in-vue-config-js-to-our-repository-name
 https://cli.vuejs.org/config/#filenamehashing
 https://medium.com/illumination/how-to-fix-npm-audit-error-with-loadvirtual-and-enolock-deprecated-dependencies-1f07ba65eef9
+https://github.com/bagus123?tab=repositories&q=bagus123.github.io&type=&language=&sort=
