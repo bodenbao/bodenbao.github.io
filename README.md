@@ -41,6 +41,15 @@ npm run build
 npm run lint
 ```
 ___
+## TODO
+* Setup Argon
+* Landing Page
+* Integrate "Markup Page"
+* Integrate list of "Markup Pages"
+* Notes Sync/Upload
+* Chrome Extension Save Bookmarks
+
+___
 ## Links...
 
 ### Guides
