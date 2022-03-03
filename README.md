@@ -42,16 +42,16 @@ npm run lint
 ```
 ## Setup
 1. Install [nvm](https://github.com/coreybutler/nvm-windows/releases) (Node Version Manager)
-2. Run cmd <nvm install lts> to install latest version of node.js
-3. Run cmd <nvm use lts> to use latest installed version
-4. Run cmd <npm install -g npm> to update npm (comes installed with node)
-5. Run cmd <npm install -g npm@8.5.2> ...Node says so but not sure if this this needed!
-6. Run cmd <npm list -g --depth=0> to check list of available modules globally installed.
-7. Run cmd <npm uninstall -g vue-cli> to un-install older versions of vue
-8. Run cmd <npm install -g @vue/cli> to run latest version.
-9. Run cmd <vue ui> in desired directoyr, ONLY if creating new project.
-10. Run cmd <git clone <project-name>> to desired directory.
-11. Run cmd <npm install> inside directory to update node modules...
+2. Run cmd "nvm install lts" to install latest version of node.js
+3. Run cmd "nvm use lts" to use latest installed version
+4. Run cmd "npm install -g npm" to update npm (comes installed with node)
+5. Run cmd "npm install -g npm@8.5.2" ...Node says so but not sure if this this needed!
+6. Run cmd "npm list -g --depth=0" to check list of available modules globally installed.
+7. Run cmd "npm uninstall -g vue-cli" to un-install older versions of vue
+8. Run cmd "npm install -g @vue/cli" to run latest version.
+9. Run cmd "vue ui" in desired directoyr, ONLY if creating new project.
+10. Run cmd "git clone 'project-name'" to desired directory.
+11. Run cmd "npm install" inside directory to update node modules...
 
 ## TODO
 * Include Setup Instructions
