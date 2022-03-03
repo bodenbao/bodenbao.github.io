@@ -20,7 +20,7 @@ table {
 ```
 npm run deploy
 ```
-___
+
 ## Project setup
 ```
 npm install
@@ -40,8 +40,12 @@ npm run build
 ```
 npm run lint
 ```
-___
+## Setup
+* Download latest version of [npm](https://nodejs.org/en/)
+* 
+
 ## TODO
+* Include Setup Instructions
 * Setup Argon
 * Landing Page
 * Integrate "Markup Page"
@@ -49,7 +53,6 @@ ___
 * Notes Sync/Upload
 * Chrome Extension Save Bookmarks
 
-___
 ## Links...
 
 ### Guides
@@ -62,7 +65,7 @@ ___
 
 ### Configuration
 <table>
-    <tr><td>&#10004;<a href="https://www.google.com">Vue.js - Build with "GitHub Pages"...
+    <tr><td>&#10004;<a href="https://blog.logrocket.com/automatically-build-deploy-vuejs-app-github-pages/">Vue.js - Build with "GitHub Pages"...
     <tr><td>&#10004;<a href="https://learnvue.co/2020/09/how-to-deploy-your-vue-app-to-github-pages/#how-does-github-pages-work">Vue.js - Deploy to "GitHub Pages"<tr><td>&#10006;<a href="https://cli.vuejs.org/config/#filenamehashing">Vue.js Config Ref
     <tr><td>&#10006;<a href="https://medium.com/illuminationhow-to-fix-npm-audit-error-with-loadvirtual-and-enolock-deprecated-dependencies-1f07ba65eef9">Npm - Warn Build Error Fix
 </table>
